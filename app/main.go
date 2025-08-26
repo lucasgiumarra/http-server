@@ -394,7 +394,6 @@ func acceptConnections(listener net.Listener, connChan chan net.Conn) {
 }
 
 func main() {
-	fmt.Println("Logs from your program will appear here!")
 	flag.Parse()
 
 	l, listenErr := net.Listen("tcp", "0.0.0.0:4221")
